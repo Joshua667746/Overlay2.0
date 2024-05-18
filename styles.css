@@ -1,0 +1,58 @@
+body {
+    font-family: 'Trajan', serif;
+    color: white;
+    background: url('https://cdn.streamelements.com/uploads/517f2786-8bea-443f-a4b3-4af5d4624ecb.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 28px; /* Adjusted font size for the entire widget */
+}
+
+.container {
+    display: flex;
+    position: fixed;
+    top: 100px;
+    width: 80%;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.player {
+    width: 45%;
+    text-align: center;
+}
+
+.player p:first-child {
+    margin: 24px 0; /* Increased margin for better spacing */
+    font-size: 29px; /* Increased font size for player name */
+}
+
+.player p {
+    margin: 18px 0;
+    font-size: inherit; /* Inherit font size from parent (body) */
+}
+
+#result {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+/* Existing CSS remains unchanged */
+
+.title {
+    position: fixed;
+    top: 4px; /* Adjust top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+    color: white;
+    letter-spacing: 2px; /* Increased letter spacing */
+    font-weight: bold; /* Added bold font weight */
+}
